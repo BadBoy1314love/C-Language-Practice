@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{FFC1EF57-C8EE-4BDF-A200-1BC44AF82363}</ProjectGuid>
+    <ProjectGuid>{1C0BAAEF-7D2D-45A3-81A0-663AECF80F23}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ToCalculateSalary</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
