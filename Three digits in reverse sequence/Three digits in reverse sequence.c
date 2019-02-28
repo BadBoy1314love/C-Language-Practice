@@ -4,7 +4,7 @@ int main()
 {
 	int Number;
 
-	printf("请输入一个三位数：");
+	printf("Please enter a three-digit number：");
 	scanf_s("%d", &Number);
 	
 	int A = Number / 100;
@@ -12,5 +12,5 @@ int main()
 	int C = Number % 10;
 	int InvertedNumber = C * 100 + B * 10 + A * 1;
 
-	printf("则倒序三位数为%d",InvertedNumber);
+	printf("Then the reverse three digits are:%d",InvertedNumber);
 }
