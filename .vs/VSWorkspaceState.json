@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\And then a few points",
-    "\\BCD Decryption"
+    "\\BCD Decryption",
+    "\\Calculate compound Interest",
+    "\\Calculate Time Difference",
+    "\\Calculate Time Difference(Use the if statement)",
+    "\\Hello Word!"
   ],
-  "SelectedNode": "\\BCD Decryption",
+  "SelectedNode": "\\Hello Word!\\Hello Word.c",
   "PreviewInSolutionExplorer": false
 }
