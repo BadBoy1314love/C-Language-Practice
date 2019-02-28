@@ -7,7 +7,7 @@ int main()
 	double Pay = 0.0;
 	int TotalWorkingTime;
 
-	printf("请输入工作的小时数：");
+	printf("Please enter the hours worked:");
 	scanf_s("%d", &TotalWorkingTime);
 	printf("\n");
 	
@@ -22,5 +22,5 @@ int main()
 		Pay = TotalWorkingTime * HourlyRate;
 	}
 
-	printf("应付工资：%f\n", Pay);
+	printf("Payroll payable:%f\n", Pay);
 }
