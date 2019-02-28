@@ -5,12 +5,12 @@ int main()
 	int StartTime;
 	int SpendTime;
 
-	printf("请输入起始时间（格式如1106表示11点零6分）：");
+	printf("Please enter the starting time (in 1106 for 11:06) :");
 	scanf_s("%d",&StartTime);
-	printf("请输入花费时间（单位分钟）：");
+	printf("Please enter the time spent (in minutes) :");
 	scanf_s("%d",&SpendTime);
 
 	int TimeMin = ((StartTime / 100 * 60) + (StartTime % 100)) + SpendTime;
 
-	printf("则终止时间为%d时%d分", TimeMin / 60, TimeMin % 60);
+	printf("Termination time is %d:%d", TimeMin / 60, TimeMin % 60);
 }
