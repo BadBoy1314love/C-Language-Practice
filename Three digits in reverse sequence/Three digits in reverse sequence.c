@@ -14,3 +14,4 @@ int main()
 
 	printf("Then the reverse three digits are:%d",InvertedNumber);
 }
+
