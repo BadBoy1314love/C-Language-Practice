@@ -1,8 +1,8 @@
-#include<stdio.h> //ÊäÈëÀåÃ×£¬Êä³öÓ¢³ßÓ¢´ç
+#include<stdio.h> // input centimeter, output foot inch
 
 int main()
 {
-	printf("ÇëÊäÈëÀåÃ×Êı£º\n");
+	printf("please type in cm£º\n");
 
 	int Centimeters = 0;
 	scanf_s("%d",&Centimeters);
@@ -10,7 +10,8 @@ int main()
 	int Foot = Centimeters / 30.48;
 	int Inch=((Centimeters / 30.48)-Foot)*12;
 
-	printf("ÔòÓ¢³ßÓ¢´çÎª%dÓ¢³ß%dÓ¢´ç",Foot,Inch);
+	printf("The foot inches are %d feet %d inches",Foot,Inch);
 
 	return 0;
 }
+
