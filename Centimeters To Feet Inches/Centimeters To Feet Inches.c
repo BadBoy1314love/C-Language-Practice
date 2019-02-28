@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("please type in cm£º\n");
+	printf("please type in cm:\n");
 
 	int Centimeters = 0;
 	scanf_s("%d",&Centimeters);
