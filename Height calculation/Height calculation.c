@@ -2,15 +2,15 @@
 
 int main()
 {
-	printf("请分别输入身高的英尺和英寸"
-		   "如输入\"5 7\"表示5英尺7英寸");
+	printf("Please enter your height in feet and inches respectively\n"
+		   "For example, input 5 7, that means 5 feet, 7 inches.\n");
 
 	int foot;
 	int inch;
 
 	scanf_s("%d %d",&foot,&inch);
 
-	printf("身高是%f米。\n", 
+	printf("The height is %f meters\n", 
 		((foot + inch / 12) * 0.3048));
 
 	return 0;
