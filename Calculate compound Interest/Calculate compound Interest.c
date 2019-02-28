@@ -11,3 +11,4 @@ int main()
 
 	printf("Total principal and interest %f yuan", amount);
 }
+
