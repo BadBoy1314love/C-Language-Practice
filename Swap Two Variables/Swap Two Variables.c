@@ -5,10 +5,12 @@ int main()
 	int a=5;
 	int b=6;
 	int c;
-    c = a;
+   
+	c = a;
 	a = b;
 	b = c;
+	
 	printf("a=%d,b=%d", a, b);
+	
 	return 0;
 }
-
