@@ -21,5 +21,3 @@ int main()
 
 	printf("Then the time difference is %d hours %d minutes", Hour, Minute);
 }
-
-
