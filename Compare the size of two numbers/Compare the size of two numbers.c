@@ -6,7 +6,7 @@ int main()
 	int B = 0;
 	int MAX;
 
-	printf("请输入两个数AB来比较大小：\nA=");
+	printf("Please enter two Numbers A and B for comparison：\nA=");
 	scanf_s("%d", &A);
 	printf("B=");
 	scanf_s("%d", &B);
@@ -14,19 +14,19 @@ int main()
 	if (A > B)
 	{
 		MAX = A;
-		printf("则较大的数为A=%d", MAX);
+		printf("The larger number is A=%d", MAX);
 	}
 	else
 	{
 		if (A == B)
 		{
 			MAX = A = B;
-			printf("没有较大的数，因为AB两数相等,值为%d",MAX);
+			printf("There is no larger number, because A and B are equal and the value is %d",MAX);
 		}
 		else
 		{
 			MAX = B;
-			printf("则较大的数为B=%d", MAX);
+			printf("The larger number is B=%d", MAX);
 		}
 	}
 
