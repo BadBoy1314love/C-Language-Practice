@@ -1,31 +1,29 @@
-#include <stdio.h> 
-
 /*
-BCD数是用一个字节来表达两位十进制的数，
-每四个比特表示一位。所以如果一个BCD数的
-十六进制是0x12，它表达的就是十进制的12.
-但是小明没学过BCD，把所有的BCD数都当作二
-进制数转换成十进制输出了。于是BCD的0×12
-被输出成了十进制的18了！现在，你的程序要读
-入这个错误的十进制数，然后输出正确的十进制
-数。提示：你可以把18转换回0x12，然后再转换回12.
+A BCD number is a two-digit decimal number in one byte,
+with four bits for each digit.So if the hexadecimal of a BCD number is 0x12,
+it represents decimal 12. But xiao Ming has not learned BCD,
+so all BCD Numbers are converted to decimal output as binary Numbers.
+So BCD 0x12 is written as decimal 18!Now, 
+your program will read in the wrong decimal number and output the correct decimal number.Tip: you can convert 18 back to 0x12 and then back to 12.
 */
+
+#include <stdio.h> 
 
 int main()
 {
 	int Number;
-	printf("请输入一个在（0—153）范围内的整数：");
+	printf("Please enter an integer within the range of (0-153) :");
 	scanf_s("%d", &Number);
 
 	int A = Number / 16;
 	int B = Number % 16;
 	int C = A * 10 + B * 1;
 
-	printf("则修正后的数为%d", C);
+	printf("Then the corrected number is %d", C);
 }
 
 /*
-int main()//有问题
+int main()
 {
 	int x;
 	scanf_s("%d",&x);
