@@ -9,12 +9,11 @@ int main()
 	if (x != 0)
 	{
 		double X = 1 / x;
-		printf("f(%.1lf)=%.1lf", x, X);
+		printf("f(%.1lf)=%.1lf\n", x, X);
 	}
 	else
-		if (x = 0)
+		if (x == 0)
 		{
-			double X = 1 / x;
-			printf("f(%.1lf)=%.1lf", x, X);
+			printf("f(0.0)=0.0\n");
 		}
 }
