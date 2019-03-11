@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 
 int main()
@@ -16,4 +17,28 @@ int main()
 		{
 			printf("f(0.0)=0.0\n");
 		}
+}
+*/
+
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+	double x = 0;
+
+	printf("Please enter a real number:");
+	scanf_s("%lf", &x);
+
+	if ((x > 0) || (x == 0))
+	{
+		printf("f(%.2lf)=%.2lf", x, pow(x, 0.5));
+	}
+	else
+	{
+		if (x < 0)
+		{
+			printf("f(%.2lf)=%.2lf", x, (x + 1) * sqrt(2) + 2 * x + 1 / x);
+		}
+	}
 }
