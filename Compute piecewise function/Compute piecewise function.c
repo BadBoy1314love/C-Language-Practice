@@ -1,9 +1,9 @@
 /*
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
-	printf("Please enter a real number X\n");
+	printf("Please enter a real number:");
 	double x=0.0;
 	scanf_s("%lf", &x);
 
@@ -20,6 +20,7 @@ int main()
 }
 */
 
+/*
 #include<stdio.h>
 #include<math.h>
 
@@ -41,4 +42,28 @@ int main()
 			printf("f(%.2lf)=%.2lf", x, (x + 1) * sqrt(2) + 2 * x + 1 / x);
 		}
 	}
+}
+*/
+
+#include<stdio.h>
+
+int main()
+{
+	int x = 0;
+	int X = 0;
+
+	printf("Please enter a real number:");
+	scanf_s("%d", &x);
+
+	switch (x > 0)   //"(*****)" <---Warning
+	{
+	case 1: 
+		X = 2 * x; 
+		break;
+	default:
+		X = -1 * x;
+		break;
+	}
+
+	printf("f(%d)=%d", x, X);
 }
