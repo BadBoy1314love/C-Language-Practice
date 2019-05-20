@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 
 int main()
@@ -11,10 +11,10 @@ int main()
 		int Prime = 1;
 		for (i = 2; i < Number; i++)
 		{
-			if (Number % i == 0)
+			if (Number % i == 0)   //Is not a prime number
 			{
 				Prime = 0;
-				break;
+				break;     //Break out of the "FOR loop"
 			}
 		}
 		if (Prime == 1)
@@ -28,8 +28,8 @@ int main()
 	}
 	return 0;
 }
-*/
 
+/*
 #include <stdio.h>
 
 int main()
@@ -53,9 +53,9 @@ int main()
 		}
 		if (prime == 1)
 		{
-			count++;
-			printf("%d\t", number);
-			if (count % 5 == 0)
+			count++;                  
+			printf("%d\t", number);   //Align at 
+			if (count % 5 == 0)      //Line feed every five digits
 			{
 				printf("\n");
 			}
@@ -64,3 +64,4 @@ int main()
 	}
 	return 0;
 }
+*/
