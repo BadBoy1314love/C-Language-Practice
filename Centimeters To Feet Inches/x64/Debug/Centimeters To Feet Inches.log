@@ -1,4 +1,0 @@
-﻿  Centimeters To Feet Inches.c
-E:\C Language Practice\Centimeters To Feet Inches\Centimeters To Feet Inches.c(10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\C Language Practice\Centimeters To Feet Inches\Centimeters To Feet Inches.c(11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-  Centimeters To Feet Inches.vcxproj -> E:\C Language Practice\Centimeters To Feet Inches\x64\Debug\Centimeters To Feet Inches.exe

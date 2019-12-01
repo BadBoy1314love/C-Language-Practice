@@ -5,7 +5,7 @@ int main()
 	printf("please type in cm:\n");
 
 	int Centimeters = 0;
-	scanf("%d",&Centimeters);
+	scanf_s("%d",&Centimeters);
 
 	int Foot = Centimeters / 30.48;
 	int Inch=((Centimeters / 30.48)-Foot)*12;

@@ -6,9 +6,9 @@ int main()
 	int hour2, minute2;
 
 	printf("Please enter the start time:");
-	scanf("%d %d", &hour1, &minute1);
+	scanf_s("%d %d", &hour1, &minute1);
 	printf("Please enter the termination time:");
-	scanf("%d %d", &hour2, &minute2);
+	scanf_s("%d %d", &hour2, &minute2);
 
 	int Hour = hour2 - hour1;
 	int Minute = minute2 - minute1;
