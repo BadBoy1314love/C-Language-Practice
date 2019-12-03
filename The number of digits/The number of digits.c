@@ -7,7 +7,7 @@ int main()
 	int Digit = 0;
 
 	printf("Please enter a real number:");
-	scanf_s("%d", &Number);  
+	scanf("%d", &Number);  
                
 	Number /= 10;
 	Digit++;
@@ -32,7 +32,7 @@ int main()
 	int Digit = 0;
 
 	printf("Please enter a real number:");
-	scanf_s("%d", &Number);
+	scanf("%d", &Number);
 
 	do
 	{

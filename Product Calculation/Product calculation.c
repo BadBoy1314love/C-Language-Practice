@@ -6,7 +6,7 @@ int main()
 	int price = 0;
 
 	printf("Please enter the amount (yuan)£º");
-	scanf_s("%d", &price);
+	scanf("%d", &price);
 
 	int change = AMOUNT - price;
 

@@ -5,7 +5,7 @@ int main()
 	int Number;
 
 	printf("Please enter a three-digit number£º");
-	scanf_s("%d", &Number);
+	scanf("%d", &Number);
 	
 	int A = Number / 100;
 	int B = Number / 10 % 10;

@@ -10,7 +10,7 @@ int main()
 	int Number;
 
 	printf("Please enter a positive integer : ");
-	scanf_s("%d", &Number);
+	scanf("%d", &Number);
 
 	while (N < Number)
 	{
@@ -32,7 +32,7 @@ int main()
 	int Number;
 
 	printf("Please enter a positive integer : ");
-	scanf_s("%d", &Number);
+	scanf("%d", &Number);
 
 	while (N <= Number)
 	{
@@ -54,7 +54,7 @@ int main()
 	double sum = 0.0;
 
 	printf("please enter a number:");
-	scanf_s("%d", &number);
+	scanf("%d", &number);
 
 	for (i = 1; i <= number; i++)
 	{
@@ -76,7 +76,7 @@ int main()
 	int sign = 1;
 
 	printf("please enter a number:");
-	scanf_s("%d", &number);
+	scanf("%d", &number);
 
 	for (i = 1; i <= number; i++)
 	{
@@ -100,7 +100,7 @@ int main()
 	double sign = 1.0;
 
 	printf("please enter a number:");
-	scanf_s("%d", &number);
+	scanf("%d", &number);
 
 	for (i = 1; i <= number; i++)
 	{

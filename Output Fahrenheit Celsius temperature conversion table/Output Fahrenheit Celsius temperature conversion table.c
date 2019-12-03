@@ -7,10 +7,10 @@ int main()
 	double C = 0;
 
 	printf("Please enter the lower Fahrenheit value:");
-	scanf_s("%d", &LowerFahrenheit);
+	scanf("%d", &LowerFahrenheit);
 	
 	printf("Please enter the upper Fahrenheit value:");
-	scanf_s("%d", &UpperFahrenheit);
+	scanf("%d", &UpperFahrenheit);
 
 	if ((LowerFahrenheit <= UpperFahrenheit)&& (UpperFahrenheit<= 100))
 	{

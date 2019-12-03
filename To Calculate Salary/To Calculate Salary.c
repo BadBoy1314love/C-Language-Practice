@@ -8,7 +8,7 @@ int main()
 	int TotalWorkingTime;
 
 	printf("Please enter the hours worked:");
-	scanf_s("%d", &TotalWorkingTime);
+	scanf("%d", &TotalWorkingTime);
 	printf("\n");
 	
 	if (TotalWorkingTime > StandardWorkingTime)

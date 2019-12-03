@@ -6,7 +6,7 @@ int main()
 	int one, two, five;
 
 	//printf("please enter a number(yuan):");
-	//scanf_s("%d", &x);
+	//scanf("%d", &x);
 
 	x = 10;
 	int exit=0;
@@ -41,7 +41,7 @@ int main()
 	int one, two, five;
 
 	printf("please enter a number(yuan):");
-	scanf_s("%d", &x);
+	scanf("%d", &x);
 
 	for (one = 1; one < x * 10; one++)
 	{

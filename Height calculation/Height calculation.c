@@ -8,7 +8,7 @@ int main()
 	int foot;
 	int inch;
 
-	scanf_s("%d %d",&foot,&inch);
+	scanf("%d %d",&foot,&inch);
 
 	printf("The height is %f meters\n", 
 		((foot + inch / 12) * 0.3048));

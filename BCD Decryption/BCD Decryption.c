@@ -14,7 +14,7 @@ int main()
 {
 	int Number;
 	printf("Please enter an integer within the range of (0-153) :");
-	scanf_s("%d", &Number);
+	scanf("%d", &Number);
 
 	int A = Number / 16;
 	int B = Number % 16;
@@ -27,7 +27,7 @@ int main()
 int main()
 {
 	int x;
-	scanf_s("%d",&x);
+	scanf("%d",&x);
 	printf("%x", x);
 }
 */

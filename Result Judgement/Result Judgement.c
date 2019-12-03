@@ -6,7 +6,7 @@ int main()
 	int Score;
 
 	printf("Please enter your score:");
-	scanf_s("%d", &Score);
+	scanf("%d", &Score);
 
 	printf("The score you entered is %d\n", Score);
 	if (Score < Pass)

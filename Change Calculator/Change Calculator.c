@@ -6,9 +6,9 @@ int main()
 	int Bill = 0;
 
 	printf("Please enter the item amount£º");
-	scanf_s("%d", &Price);
+	scanf("%d", &Price);
 	printf("Please enter the bill£º");
-	scanf_s("%d", &Bill);
+	scanf("%d", &Bill);
 
 	if (Bill >= Price)
 	{

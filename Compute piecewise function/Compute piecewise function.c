@@ -5,7 +5,7 @@ int main()
 {
 	printf("Please enter a real number:");
 	double x=0.0;
-	scanf_s("%lf", &x);
+	scanf("%lf", &x);
 
 	if (x != 0)
 	{
@@ -29,7 +29,7 @@ int main()
 	double x = 0;
 
 	printf("Please enter a real number:");
-	scanf_s("%lf", &x);
+	scanf("%lf", &x);
 
 	if ((x > 0) || (x == 0))
 	{
@@ -53,7 +53,7 @@ int main()
 	int X = 0;
 
 	printf("Please enter a real number:");
-	scanf_s("%d", &x);
+	scanf("%d", &x);
 
 	switch (x > 0)   //"(*****)" <---Warning
 	{

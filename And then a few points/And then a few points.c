@@ -6,9 +6,9 @@ int main()
 	int SpendTime;
 
 	printf("Please enter the starting time (in 1106 for 11:06) :");
-	scanf_s("%d",&StartTime);
+	scanf("%d",&StartTime);
 	printf("Please enter the time spent (in minutes) :");
-	scanf_s("%d",&SpendTime);
+	scanf("%d",&SpendTime);
 
 	int TimeMin = ((StartTime / 100 * 60) + (StartTime % 100)) + SpendTime;
 

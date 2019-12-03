@@ -7,9 +7,9 @@ int main()
 	int MAX;
 
 	printf("Please enter two Numbers A and B for comparison£º\nA=");
-	scanf_s("%d", &A);
+	scanf("%d", &A);
 	printf("B=");
-	scanf_s("%d", &B);
+	scanf("%d", &B);
 	
 	if (A > B)
 	{

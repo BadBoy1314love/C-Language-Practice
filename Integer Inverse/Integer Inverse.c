@@ -7,7 +7,7 @@ int main()
 	int result=0;
 
 	printf("Please enter a integer number:");
-	scanf_s("%d", &x);
+	scanf("%d", &x);
 
 	while (x > 0)
 	{

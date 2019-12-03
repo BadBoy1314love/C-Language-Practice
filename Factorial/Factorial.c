@@ -8,7 +8,7 @@ int main()
 	int Initial=1;
 
 	printf("please enter a number:");
-	scanf_s("%d", &Number);
+	scanf("%d", &Number);
 
 	while (Initial <= Number)
 	{
@@ -32,7 +32,7 @@ int main()
 	int Initial = 1;
 
 	printf("please enter a number:");
-	scanf_s("%d", &Number);
+	scanf("%d", &Number);
 
 	for (Initial = 1; Initial <= Number; Initial++)
 	{
@@ -54,7 +54,7 @@ int main()
 	int Initial = 1;
 
 	printf("Please enter a number:");
-	scanf_s("%d", &Number);
+	scanf("%d", &Number);
 
 	for (Initial=Number;Initial>1;Initial--)
 	{

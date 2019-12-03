@@ -6,9 +6,9 @@ int main()
 	int hour2, minute2;
 
 	printf("Please enter the start time (please use 24H system)\n");
-	scanf_s("%d %d",&hour1, &minute1);
+	scanf("%d %d",&hour1, &minute1);
 	printf("Please enter the termination time (please use 24H system)\n");
-	scanf_s("%d %d",&hour2, &minute2);
+	scanf("%d %d",&hour2, &minute2);
 
 	int t1 = hour1 * 60 + minute1;
 	int t2 = hour2 * 60 + minute2;

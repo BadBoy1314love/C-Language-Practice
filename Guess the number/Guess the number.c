@@ -14,7 +14,7 @@ int main()
 	do 
 	{
 		printf("Please guess the number between one and one hundred:");
-		scanf_s("%d", &a);
+		scanf("%d", &a);
 		count++;
 		if (a > number)
 		{
